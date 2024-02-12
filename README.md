@@ -127,7 +127,7 @@ Our implementation is written in Python 3, relying on:
 - graphviz
 - pygraphviz
 
-To install these programs and python packages, it is possibly easiest to install [anaconda](https://docs.anaconda.com/free/anaconda/install/mac-os/) or [miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html). After that, in a terminal, change the directory to the base directory of the EColPy repository, and run
+To install these programs and python packages, it is possibly easiest to install [anaconda](https://docs.anaconda.com/free/anaconda/install/mac-os/) or [miniconda](https://docs.anaconda.com/free/miniconda/index.html#quick-command-line-install) (recommended). After that, in a terminal, change the directory to the base directory of the EColPy repository, and run
 
 ```bash
 conda env create --file environment.yml
