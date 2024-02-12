@@ -1,5 +1,6 @@
 <h1>Edge coloring lattice graphs (ECoLPy)</h1>
-Joris Kattemölle
+
+<p style="color:#808080;">Joris Kattemölle</p>
 
 This repository contains the code, data and images for the edge coloring of lattice graphs, as described in [arxiv:????](https://www.arxiv.org/????). 
 
@@ -99,6 +100,7 @@ which gives
 (Here, the "seed numbers" (third entry of a node like `(0, 0, (0, 0, 0, 0))` are not actually numbers but tuples, related to the 'tiling symbol' notation used in the uncolored json files. Above, the only function of the tuples is, just like the seed numbers, to distinguish the different nodes in one unit cell, and can be mapped to integers without problems if necessary.)
 
 <h1 id="installation">Installation<h1>
+
 ## TL;DR 
 If you have git and anconda/miniconda installed, in a terminal, run 
 
@@ -109,6 +111,7 @@ conda env create --file environment.yml
 conda activate ecolpy
 ```
 After that, you should be able to run the example under 'usage'. 
+
 ## More info
 Download and unpack the repository. Or, if you have git, run
 
