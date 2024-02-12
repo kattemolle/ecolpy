@@ -1,0 +1,10 @@
+name: ecolpy
+dependencies:
+- python>=3.12
+- numpy
+- networkx=3.1
+- graphviz
+- pygraphviz
+- pip
+- pip:
+  - z3-solver
