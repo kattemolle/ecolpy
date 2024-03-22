@@ -2,7 +2,7 @@
 
 <p style="color:#808080;">Joris Kattemölle</p>
 
-This repository contains the code, data and images for the edge coloring of lattice graphs, as described in [arxiv:????](https://www.arxiv.org/????). 
+This repository contains the code, data and images for the edge coloring of lattice graphs, as described in [arXiv:2402.08752](https://arxiv.org/abs/2402.08752). 
 
 # Usage
 We introduce the usage by a simple example. (For installation, see [installation](#installation).) Let's say we want to find a minimal edge coloring of the square lattice graph, with edges to (geometrically) next-nearest neighbors added. This lattice graph is sometimes referred to as the diagonal lattice or the dense grid graph.
@@ -145,10 +145,10 @@ Please feel free to contact me at `joris at kattemolle dot com`, or to open an i
 ``` bibtex
 @misc{kattemolle2024edge,
       title={Edge coloring lattice graphs}, 
-      author={Kattemölle, Joris},
+      author={Kattem{\"o}lle, Joris},
       year={2024},
-      eprint={????},
+      eprint = {2402.08752},
       archivePrefix={arXiv},
-      primaryClass={cs.DM}
+      primaryClass={quant-ph}
 }
 ```
